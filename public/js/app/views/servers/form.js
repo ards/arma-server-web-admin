@@ -20,6 +20,7 @@ module.exports = Marionette.ItemView.extend({
       allowed_file_patching: this.$('form .allowed-file-patching').prop('checked') ? 2 : 1,
       auto_start: this.$('form .auto-start').prop('checked'),
       battle_eye: this.$('form .battle-eye').prop('checked'),
+      battleeyeConfigurationOptions: this.$('form .battleeye-configuration-options').val(),
       file_patching: this.$('form .file-patching').prop('checked'),
       forcedDifficulty: this.$('form .forcedDifficulty').val(),
       max_players: this.$('form .max-players').val(),
